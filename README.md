@@ -2,7 +2,7 @@
 
 # Premier League 2025/26 Data Analysis Dashboard
 
-An interactive Power BI dashboard analyzing the Premier League 2025/26 season — covering player performance, team statistics, discipline, and squad demographics across all 20 clubs and ~551 players.
+An interactive Power BI dashboard analyzing the Premier League 2025/26 season, covering player performance, team statistics, discipline, and squad demographics across all 20 clubs and 551 players.
 
 ## 🎯 Why I Built This
 
@@ -12,7 +12,7 @@ After my first year of uni, I had a 5-month break and tried to land an internshi
 
 All data was sourced from FBref, a football statistics website, covering the full 2025/26 Premier League season.
 
-I initially tried scraping the data with Python, but ran into HTTP 403 errors (access restrictions), so I manually downloaded the relevant tables from FBref as CSV files instead — covering player info (name, age, nationality, position, club) and performance stats (goals, assists, minutes played, cards, and more) for all 20 clubs.
+I initially tried scraping the data with Python, but ran into HTTP 403 errors (access restrictions), so I manually downloaded the relevant tables from FBref as CSV files instead, covering player info (name, age, nationality, position, club) and performance stats (goals, assists, minutes played, cards, and more) for all 20 clubs.
 
 ## 🛠️ How It Was Built
 
@@ -40,7 +40,7 @@ This followed a full relational database workflow, not just a straight CSV-to-da
 - **Jarrod Bowen** finished as the 3rd highest assist provider in the entire league
 - **Arsenal** went the full season without a single red card
 - The goals-scored-vs-squad-age chart makes an intuitive trend (younger squads scoring more) genuinely visible rather than just assumed
-- **Midfielders** scored more goals than forwards across the league — not what I expected going in
+- **Midfielders** scored more goals than forwards across the league. 
 - **Igor Thiago** was responsible for 41% of his team’s total goals this season
 
 ## 📁 Files
