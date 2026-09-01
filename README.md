@@ -19,7 +19,7 @@ I initially tried scraping the data with Python, but ran into HTTP 403 errors (a
 This followed a full relational database workflow, not just a straight CSV-to-dashboard import:
 
 1. **Cleaning:** Raw CSVs were cleaned and processed with Python (Pandas) in Jupyter Notebook
-2. **Database:** Built a relational SQLite database using Python’s `sqlite3` library, structured into three related tables — `Teams`, `Players`, and `PlayerStats` — with primary/foreign key relationships to normalize the data and remove redundancy
+2. **Database:** Built a relational SQLite database using Python’s `sqlite3` library, structured into three related tables, `Teams`, `Players`, and `PlayerStats`, with primary/foreign key relationships to normalize the data and remove redundancy
 3. **Analysis:** Wrote SQL queries against the database to explore a range of football analytics questions
 4. **Dashboard:** Exported the cleaned tables back to CSV and built the final interactive dashboard in Power BI, including custom DAX measures for things like per-90 efficiency, team-relative percentages, and ranking logic
 
@@ -53,7 +53,7 @@ Download the `.pbix` file and open it in Power BI Desktop (free) to explore the 
 
 ## 📝 Notes
 
-This was my first project of this scale — built on and off over about a month (with breaks in between). The dashboard itself was the hardest and most enjoyable part, since a lot of visuals needed reworking or scrapping entirely when the original queries didn’t hold up. AI tools were used to assist with parts of the data cleaning and dashboard troubleshooting process.
+This was my first project of this scale built on and off over about a month (with breaks in between). The dashboard itself was the hardest and most enjoyable part, since a lot of visuals needed reworking or scrapping entirely when the original queries didn’t hold up. AI tools were used to assist with parts of the data cleaning and dashboard troubleshooting process.
 
 ---
 
