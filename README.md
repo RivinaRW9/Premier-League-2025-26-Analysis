@@ -4,17 +4,17 @@
 
 An interactive Power BI dashboard analyzing the Premier League 2025/26 season, covering player performance, team statistics, discipline, and squad demographics across all 20 clubs and 551 players.
 
-## 🎯 Why I Built This
+##  Why I Built This
 
 After my first year of uni, I had a 5-month break and tried to land an internship but it didn’t work out. Doing some research made it clear that hands-on projects would be a real asset for future internship applications, especially heading into 3rd year. Since I’m doing a Data Analytics degree and I’m genuinely into football, this felt like the natural first project to build a portfolio around.
 
-## 🗄️ Data Source & Collection
+##  Data Source & Collection
 
 All data was sourced from FBref, a football statistics website, covering the full 2025/26 Premier League season.
 
 I initially tried scraping the data with Python, but ran into HTTP 403 errors (access restrictions), so I manually downloaded the relevant tables from FBref as CSV files instead, covering player info (name, age, nationality, position, club) and performance stats (goals, assists, minutes played, cards, and more) for all 20 clubs.
 
-## 🛠️ How It Was Built
+##  How It Was Built
 
 This followed a full relational database workflow, not just a straight CSV-to-dashboard import:
 
@@ -25,7 +25,7 @@ This followed a full relational database workflow, not just a straight CSV-to-da
 
 **Tools used:** Python, Pandas, Jupyter Notebook, SQLite, SQL, Power BI, DAX
 
-## 📊 Dashboard Pages
+##  Dashboard Pages
 
 **1. Season Overview** — League-wide KPIs and top 10 rankings for goalscorers and assist providers.
 
@@ -35,7 +35,7 @@ This followed a full relational database workflow, not just a straight CSV-to-da
 
 **4. Player Deep Dive** — Goals by age bracket, most-carded individual players, and squad nationality breakdown.
 
-## 💡 Insights I Found Interesting
+##  Insights I Found Interesting
 
 - **Jarrod Bowen** finished as the 3rd highest assist provider in the entire league
 - **Arsenal** went the full season without a single red card
@@ -43,15 +43,15 @@ This followed a full relational database workflow, not just a straight CSV-to-da
 - **Midfielders** scored more goals than forwards across the league. 
 - **Igor Thiago** was responsible for 41% of his team’s total goals this season
 
-## 📁 Files
+##  Files
 
 - `PremierLeague2025_26_Dashboard.pbix` — the full Power BI report
 
-## 🚀 How to View
+##  How to View
 
 Download the `.pbix` file and open it in Power BI Desktop (free) to explore the dashboard interactively.
 
-## 📝 Notes
+##  Notes
 
 This was my first project of this scale built on and off over about a month (with breaks in between). The dashboard itself was the hardest and most enjoyable part, since a lot of visuals needed reworking or scrapping entirely when the original queries didn’t hold up. AI tools were used to assist with parts of the data cleaning and dashboard troubleshooting process.
 
